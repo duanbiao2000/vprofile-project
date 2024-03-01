@@ -26,7 +26,7 @@ public class RoleTest {
         user.setUsername("Wahidkhan74");
         user.setPassword("Wahidkhan74");
         user.setUserEmail("XXXXX@gmail.com");
-        
+        // 这行代码创建了一个Set类型的users变量，它可以存储User类型的对象。
     	Set<User> users = new HashSet<User>();    	
     	users.add(user);    	
     	role = new Role();
